@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B107F7FE174435EE00E7AA12 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B107F7FD174435EE00E7AA12 /* Cocoa.framework */; };
+		B107F808174435EE00E7AA12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B107F806174435EE00E7AA12 /* InfoPlist.strings */; };
+		B107F80A174435EE00E7AA12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B107F809174435EE00E7AA12 /* main.m */; };
+		B107F80E174435EE00E7AA12 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B107F80C174435EE00E7AA12 /* Credits.rtf */; };
+		B107F811174435EE00E7AA12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B107F810174435EE00E7AA12 /* AppDelegate.m */; };
+		B107F814174435EE00E7AA12 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B107F812174435EE00E7AA12 /* MainMenu.xib */; };
+		B107F81D17443F0400E7AA12 /* clip.png in Resources */ = {isa = PBXBuildFile; fileRef = B107F81C17443F0400E7AA12 /* clip.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B107F7F9174435EE00E7AA12 /* ClipBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B107F7FD174435EE00E7AA12 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B107F800174435EE00E7AA12 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B107F801174435EE00E7AA12 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B107F802174435EE00E7AA12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B107F805174435EE00E7AA12 /* ClipBoard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClipBoard-Info.plist"; sourceTree = "<group>"; };
+		B107F807174435EE00E7AA12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B107F809174435EE00E7AA12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B107F80B174435EE00E7AA12 /* ClipBoard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClipBoard-Prefix.pch"; sourceTree = "<group>"; };
+		B107F80D174435EE00E7AA12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B107F80F174435EE00E7AA12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B107F810174435EE00E7AA12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B107F813174435EE00E7AA12 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B107F81C17443F0400E7AA12 /* clip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clip.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B107F7F6174435EE00E7AA12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B107F7FE174435EE00E7AA12 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B107F7EE174435EE00E7AA12 = {
+			isa = PBXGroup;
+			children = (
+				B107F81C17443F0400E7AA12 /* clip.png */,
+				B107F803174435EE00E7AA12 /* ClipBoard */,
+				B107F7FC174435EE00E7AA12 /* Frameworks */,
+				B107F7FA174435EE00E7AA12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B107F7FA174435EE00E7AA12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B107F7F9174435EE00E7AA12 /* ClipBoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B107F7FC174435EE00E7AA12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B107F7FD174435EE00E7AA12 /* Cocoa.framework */,
+				B107F7FF174435EE00E7AA12 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B107F7FF174435EE00E7AA12 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B107F800174435EE00E7AA12 /* AppKit.framework */,
+				B107F801174435EE00E7AA12 /* CoreData.framework */,
+				B107F802174435EE00E7AA12 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B107F803174435EE00E7AA12 /* ClipBoard */ = {
+			isa = PBXGroup;
+			children = (
+				B107F80F174435EE00E7AA12 /* AppDelegate.h */,
+				B107F810174435EE00E7AA12 /* AppDelegate.m */,
+				B107F812174435EE00E7AA12 /* MainMenu.xib */,
+				B107F804174435EE00E7AA12 /* Supporting Files */,
+			);
+			path = ClipBoard;
+			sourceTree = "<group>";
+		};
+		B107F804174435EE00E7AA12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B107F805174435EE00E7AA12 /* ClipBoard-Info.plist */,
+				B107F806174435EE00E7AA12 /* InfoPlist.strings */,
+				B107F809174435EE00E7AA12 /* main.m */,
+				B107F80B174435EE00E7AA12 /* ClipBoard-Prefix.pch */,
+				B107F80C174435EE00E7AA12 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B107F7F8174435EE00E7AA12 /* ClipBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B107F817174435EE00E7AA12 /* Build configuration list for PBXNativeTarget "ClipBoard" */;
+			buildPhases = (
+				B107F7F5174435EE00E7AA12 /* Sources */,
+				B107F7F6174435EE00E7AA12 /* Frameworks */,
+				B107F7F7174435EE00E7AA12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClipBoard;
+			productName = ClipBoard;
+			productReference = B107F7F9174435EE00E7AA12 /* ClipBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B107F7F0174435EE00E7AA12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Chris Ziraldo";
+			};
+			buildConfigurationList = B107F7F3174435EE00E7AA12 /* Build configuration list for PBXProject "ClipBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B107F7EE174435EE00E7AA12;
+			productRefGroup = B107F7FA174435EE00E7AA12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B107F7F8174435EE00E7AA12 /* ClipBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B107F7F7174435EE00E7AA12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B107F808174435EE00E7AA12 /* InfoPlist.strings in Resources */,
+				B107F80E174435EE00E7AA12 /* Credits.rtf in Resources */,
+				B107F814174435EE00E7AA12 /* MainMenu.xib in Resources */,
+				B107F81D17443F0400E7AA12 /* clip.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B107F7F5174435EE00E7AA12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B107F80A174435EE00E7AA12 /* main.m in Sources */,
+				B107F811174435EE00E7AA12 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B107F806174435EE00E7AA12 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B107F807174435EE00E7AA12 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B107F80C174435EE00E7AA12 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B107F80D174435EE00E7AA12 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B107F812174435EE00E7AA12 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B107F813174435EE00E7AA12 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B107F815174435EE00E7AA12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B107F816174435EE00E7AA12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B107F818174435EE00E7AA12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClipBoard/ClipBoard-Prefix.pch";
+				INFOPLIST_FILE = "ClipBoard/ClipBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B107F819174435EE00E7AA12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClipBoard/ClipBoard-Prefix.pch";
+				INFOPLIST_FILE = "ClipBoard/ClipBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B107F7F3174435EE00E7AA12 /* Build configuration list for PBXProject "ClipBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B107F815174435EE00E7AA12 /* Debug */,
+				B107F816174435EE00E7AA12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B107F817174435EE00E7AA12 /* Build configuration list for PBXNativeTarget "ClipBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B107F818174435EE00E7AA12 /* Debug */,
+				B107F819174435EE00E7AA12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B107F7F0174435EE00E7AA12 /* Project object */;
+}
