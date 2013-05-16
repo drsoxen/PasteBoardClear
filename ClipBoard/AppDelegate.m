@@ -23,6 +23,8 @@
     [statusItem setImage:[NSImage imageNamed:@"clip.png"]];
     [statusItem setTarget:self];
     [statusItem setAction:@selector(Click:)];
+    
+    //[self performSelectorOnMainThread:@selector(WatchForKeyPress:) withObject:nil waitUntilDone:NO];
 }
 
 - (void)Click:(id)sender
@@ -31,11 +33,11 @@
     if([event modifierFlags] & NSShiftKeyMask) {
         [self ShiftClick:sender];
     } else {
-        [self LeftClick:sender];
+        [self StripPasteboard:sender];
     }
 }
 
-- (void)LeftClick:(id)sender
+- (void)StripPasteboard:(id)sender
 {
     NSPasteboard *pasteboard = [NSPasteboard generalPasteboard];
     NSString * tempString =  [pasteboard stringForType:NSPasteboardTypeString ];
@@ -48,7 +50,13 @@
     [[NSApplication sharedApplication] terminate:self];
 }
 
-
+- (void)WatchForKeyPress:(id)sender
+{
+    while (true)
+    {
+        [NSThread sleepForTimeInterval:0.25];
+    }
+}
 
 
 

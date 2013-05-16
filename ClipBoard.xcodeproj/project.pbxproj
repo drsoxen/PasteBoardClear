@@ -14,6 +14,7 @@
 		B107F811174435EE00E7AA12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B107F810174435EE00E7AA12 /* AppDelegate.m */; };
 		B107F814174435EE00E7AA12 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B107F812174435EE00E7AA12 /* MainMenu.xib */; };
 		B107F81D17443F0400E7AA12 /* clip.png in Resources */ = {isa = PBXBuildFile; fileRef = B107F81C17443F0400E7AA12 /* clip.png */; };
+		B107F83C174535CF00E7AA12 /* icon_128x128.png in Resources */ = {isa = PBXBuildFile; fileRef = B107F83B174535CF00E7AA12 /* icon_128x128.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		B107F810174435EE00E7AA12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B107F813174435EE00E7AA12 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		B107F81C17443F0400E7AA12 /* clip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clip.png; sourceTree = "<group>"; };
+		B107F83B174535CF00E7AA12 /* icon_128x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_128x128.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 		B107F7EE174435EE00E7AA12 = {
 			isa = PBXGroup;
 			children = (
+				B107F83B174535CF00E7AA12 /* icon_128x128.png */,
 				B107F81C17443F0400E7AA12 /* clip.png */,
 				B107F803174435EE00E7AA12 /* ClipBoard */,
 				B107F7FC174435EE00E7AA12 /* Frameworks */,
@@ -160,6 +163,7 @@
 				B107F80E174435EE00E7AA12 /* Credits.rtf in Resources */,
 				B107F814174435EE00E7AA12 /* MainMenu.xib in Resources */,
 				B107F81D17443F0400E7AA12 /* clip.png in Resources */,
+				B107F83C174535CF00E7AA12 /* icon_128x128.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
